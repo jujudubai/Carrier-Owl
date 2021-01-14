@@ -1,11 +1,17 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.* OR cat:econ.* OR cat:stat.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        causal inference: 4
+        causal machine learning: 4
+        counterfactual: 4
+        causality: 3
+        quasi-experimental: 3
+        health: 4
+        mental health: 4
+        stress: 3
+        sleep: 3
 
 # 通知の閾値
 score_threshold: 0
